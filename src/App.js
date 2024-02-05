@@ -3,20 +3,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="Maksym Pyvovarov">
-      <header className="Maksym Pyvovarov">
+    <div className="App">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Maksym Pyvovarov
+          Edit <code>src/App.js</code> and save to reload.
+          Maksym Pyvovarov {/* Updated text */}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
