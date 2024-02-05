@@ -1,15 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-const name = "Maksym Pyvovarov";
-
 function App() {
   return (
-    <div className={name}>
-      <header className={name}>
+    <div className="Maksym Pyvovarov">
+      <header className="Maksym Pyvovarov">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Maksym Pyvovarov
         </p>
         <a
           className="App-link"
@@ -23,5 +21,5 @@ function App() {
     </div>
   );
 }
-export default App;
 
+export default App;
