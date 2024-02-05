@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+const name = "Maksym Pyvovarov";
+
 function App() {
   return (
-    <div className="Maksym Pyvovarov">
-      <header className="Maksym Pyvovarov">
+    <div className={name}>
+      <header className={name}>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
