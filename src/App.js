@@ -6,8 +6,10 @@ function App() {
     <div className="Maksym Pyvovarov">
       <header className="Maksym Pyvovarov">
         <img src={logo} className="App-logo" alt="logo" />
+    <h1>
+"Maksym Pyvovarov"
+    </h1>
         <p>
-    Maksym Pyvovarov
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
