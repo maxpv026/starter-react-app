@@ -8,8 +8,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          Maksym Pyvovarov {/* Updated text */}
         </p>
-        <a
+          <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
@@ -21,4 +22,5 @@ function App() {
     </div>
   );
 }
+
 export default App;
